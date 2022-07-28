@@ -37,3 +37,12 @@ jobs:
       
     - name: Execute Gradle build
       run: ./gradlew build
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Execute Gradle build
+        run: ./gradlew test
