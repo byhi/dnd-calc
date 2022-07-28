@@ -28,11 +28,11 @@ jobs:
         repo_token: ${{ secrets.BASE_GITHUB_TOKEN }}
         codiga_api_token: ${{ secrets.CODIGA_API_TOKEN }}
         force_ref: 'none'
-        min_quality_grade: 'WARNING'
+        min_quality_grade: 'CRITICAL'
         min_quality_score: '50'
-        max_defects_rate: '0.0001'
-        max_complex_functions_rate: '0.0001'
-        max_long_functions_rate: '0.0001'
+        max_defects_rate: '0.1'
+        max_complex_functions_rate: '0.1'
+        max_long_functions_rate: '0.1'
         project_name: ''
         max_timeout_sec: '600'
         
