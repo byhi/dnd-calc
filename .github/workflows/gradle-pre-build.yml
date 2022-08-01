@@ -78,6 +78,7 @@ jobs:
         max_timeout_sec: '600'
 
   push_to_registry:
+    needs: check-quality
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
