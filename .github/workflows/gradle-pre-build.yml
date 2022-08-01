@@ -102,5 +102,5 @@ jobs:
         with:
           context: .
           push: true
-#          tags: ${{ steps.meta.outputs.tags }}
-#          labels: ${{ steps.meta.outputs.labels }}
+          tags: my-docker-hub-namespace/my-docker-hub-repository:0.1
+          labels: my-docker-hub-namespace/my-docker-hub-repository:0.1
